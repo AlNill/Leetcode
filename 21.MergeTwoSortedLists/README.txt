@@ -1,1 +1,1 @@
-﻿This code beats 92.28% by speed and 29.43% by memory.
+﻿This code beats 90.23% by runtime and 85.80% by memory.
