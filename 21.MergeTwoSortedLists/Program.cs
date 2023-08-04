@@ -1,4 +1,6 @@
-﻿using _21.MergeTwoSortedLists;
+﻿#nullable disable
+using _21.MergeTwoSortedLists;
+using System.Text;
 
 void ManualTest1()
 {
@@ -25,13 +27,41 @@ void ManualTest1()
     var result = solution.MergeTwoLists(headOfList1, headOfList2);
 
     Console.WriteLine("Manual test1 done:");
+    StringBuilder sb = new StringBuilder();
+    sb.Append("[");
     while (result != null)
     {
-        Console.WriteLine(result.val);
+        sb.Append($"{result.val},");
         result = result.next;
     }
+    sb.Remove(sb.Length - 1, 1);
+    sb.Append(']');
+    Console.WriteLine(sb.ToString());
+}
+
+void ManualTest2()
+{
+    Console.WriteLine("Manual test1: [], []");
+    ListNode list1 = null;
+    ListNode headOfList1 = list1;
+
+    ListNode list2 = null;
+    ListNode headOfList2 = list2;
+
+    var solution = new Solution();
+    var result = solution.MergeTwoLists(headOfList1, headOfList2);
+
+    Console.WriteLine("Manual test1 done:");
+    StringBuilder sb = new StringBuilder();
+    sb.Append("[");
+    while (result != null)
+    {
+        sb.Append($"{result.val},");        
+        result = result.next;
+    }
+    sb.Append(']');
+    Console.WriteLine(sb.ToString());
 }
 
 ManualTest1();
-
-
+ManualTest2();

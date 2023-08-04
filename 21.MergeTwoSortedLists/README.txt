@@ -1,0 +1,1 @@
+﻿This code beats 92.28% by speed and 29.43% by memory.
