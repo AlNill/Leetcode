@@ -1,0 +1,2 @@
+# This query beats 69.92% by speed and 100% by memory.
+select product_id from Products where low_fats = 'Y' and recyclable = 'Y';

@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.MergeTwoSortedLists", "21.MergeTwoSortedLists\21.MergeTwoSortedLists.csproj", "{DAC185F3-4A52-4B10-A0F5-E82D36B89A2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.MergeTwoSortedLists", "21.MergeTwoSortedLists\21.MergeTwoSortedLists.csproj", "{DAC185F3-4A52-4B10-A0F5-E82D36B89A2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL_1757.RecyclableAndLowFatProducts", "SQL_1757.RecyclableAndLowFatProducts", "{5E9C00ED-1963-4C01-BACA-3BA35CD9C3BE}"
+	ProjectSection(SolutionItems) = preProject
+		Query.txt = Query.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
