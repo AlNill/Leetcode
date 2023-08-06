@@ -1,0 +1,2 @@
+# This query beats  58.10% by speed and 100% by memory.
+select author_id as id from Views where author_id = viewer_id group by author_id order by author_id;
