@@ -8,9 +8,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queries", "Queries", "{5E9C00ED-1963-4C01-BACA-3BA35CD9C3BE}"
 	ProjectSection(SolutionItems) = preProject
 		SQL_1757.RecyclableAndLowFatProductsQuery.txt = SQL_1757.RecyclableAndLowFatProductsQuery.txt
+		SQL_183.CustomersWhoNeverOrder.txt = SQL_183.CustomersWhoNeverOrder.txt
+		SQL_595.BigCountries.txt = SQL_595.BigCountries.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.RomanToInteger", "13.RomanToInteger\13.RomanToInteger.csproj", "{C5A6E758-E7FC-4863-ACE1-90A0FE44C1B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.RomanToInteger", "13.RomanToInteger\13.RomanToInteger.csproj", "{C5A6E758-E7FC-4863-ACE1-90A0FE44C1B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,2 @@
+# This query beats 63.57% by speed and 100% by memory.
+select name, population, area from World where population > 24999999 or area > 2999999;

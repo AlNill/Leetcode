@@ -1,0 +1,7 @@
+# Solution 1
+# This query beats 79.57% by speed and 100% by memory.
+select name as Customers from Customers where id not in (select customerId from Orders);
+
+# Solution 2
+# This query beats 65.517% by speed and 100% by memory.
+select name as Customers from Customers A left join Orders B on  A.Id = B.CustomerId where B.CustomerId is null;
