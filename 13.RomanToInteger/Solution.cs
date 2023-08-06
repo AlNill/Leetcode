@@ -53,4 +53,22 @@ public class Solution
 
         return result;
     }
+
+    /*This solution based on condition that 'Roman numerals are usually written largest to smallest'*/
+    public int RomanToIntLeetcode1(string s)
+    {
+        int result = 0;
+        for(int i = 0; i < s.Length - 1; ++i)
+        {
+            if (map[s[i]] < map[s[i + 1]])
+            {
+                result -= map[s[i]];
+            }
+            else 
+            { 
+                result += map[s[i]]; 
+            }
+        }
+        return result += map[s[s.Length - 1]];
+    }
 }
