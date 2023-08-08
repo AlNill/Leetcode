@@ -28,4 +28,16 @@ public class Solution
         
         return isContain ? nums.Length - (endIndex - startIndex + 1) : nums.Length;
     }
+
+    // O(n) Solution
+    public int PrettyRemoveElement(int[] nums, int val)
+    {
+        int i = 0;
+        foreach(int n in nums)
+        {
+            if(n != val)
+                nums[i++] = n;                
+        }
+        return i;
+    }
 }
