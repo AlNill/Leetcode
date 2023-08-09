@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14.LongestCommonPrefix", "1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26.RemoveDuplicatesFromSortedArray", "26.RemoveDuplicatesFromSortedArray\26.RemoveDuplicatesFromSortedArray.csproj", "{1CEAEC48-4B4E-4AF4-B8EC-7D9D451C33C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27.RemoveElement", "27.RemoveElement\27.RemoveElement.csproj", "{5D80648C-E4A4-44EA-97FB-BF33C3DAF91F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27.RemoveElement", "27.RemoveElement\27.RemoveElement.csproj", "{5D80648C-E4A4-44EA-97FB-BF33C3DAF91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35.SearchInsertPosition", "35.SearchInsertPosition\35.SearchInsertPosition.csproj", "{EADC6477-9BA6-4CA7-8123-BF6699552869}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{5D80648C-E4A4-44EA-97FB-BF33C3DAF91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D80648C-E4A4-44EA-97FB-BF33C3DAF91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D80648C-E4A4-44EA-97FB-BF33C3DAF91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADC6477-9BA6-4CA7-8123-BF6699552869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADC6477-9BA6-4CA7-8123-BF6699552869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADC6477-9BA6-4CA7-8123-BF6699552869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADC6477-9BA6-4CA7-8123-BF6699552869}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
