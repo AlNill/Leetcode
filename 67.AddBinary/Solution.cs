@@ -97,4 +97,29 @@ public class Solution
         }
         return sb.ToString();
     }
+
+    public string AddBinaryNew(string a, string b)
+    {
+        StringBuilder sb = new StringBuilder();
+        int carry = 0;
+        int i = a.Length - 1, j = b.Length - 1;
+        while(i >= 0 || j >= 0 || carry != 0)
+        {
+            int total = 0;
+            if(i >= 0)
+                total += a[i--] - '0';
+            if (j >= 0)
+                total += b[j--] - '0';
+
+            total += carry;
+            int sum = total % 2;
+            carry = total / 2;
+            if (sum == 0)
+                sb.Insert(0, '0');
+            else
+                sb.Insert(0, '1');
+        }
+
+        return sb.ToString();
+    }
 }
