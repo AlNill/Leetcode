@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "66.PlusOne", "66.PlusOne\66
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "69.Sqrt(x)", "69.Sqrt(x)\69.Sqrt(x).csproj", "{1C5B9C53-2527-4B8A-A508-818F0880D5C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "70.ClimbingStairs", "70.ClimbingStairs\70.ClimbingStairs.csproj", "{2254BA5C-2524-4357-9B76-932635B2A920}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70.ClimbingStairs", "70.ClimbingStairs\70.ClimbingStairs.csproj", "{2254BA5C-2524-4357-9B76-932635B2A920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83.RemoveDuplicatesFromSortedList", "83.RemoveDuplicatesFromSortedList\83.RemoveDuplicatesFromSortedList.csproj", "{FA4F3674-8D64-4074-9DB2-D89C5E0D0018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{2254BA5C-2524-4357-9B76-932635B2A920}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2254BA5C-2524-4357-9B76-932635B2A920}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2254BA5C-2524-4357-9B76-932635B2A920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4F3674-8D64-4074-9DB2-D89C5E0D0018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4F3674-8D64-4074-9DB2-D89C5E0D0018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4F3674-8D64-4074-9DB2-D89C5E0D0018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4F3674-8D64-4074-9DB2-D89C5E0D0018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
