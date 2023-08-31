@@ -15,24 +15,21 @@ public class TreeNode
 
 public class Solution
 {
+    public TreeNode RecursiveBuild(int[] nums, int left, int right)
+    {
+        if (left > right)
+            return null;
+        int middle = (right + left) / 2;
+        TreeNode root = new TreeNode(nums[middle]);
+        root.left = RecursiveBuild(nums, left, middle - 1);
+        root.right = RecursiveBuild(nums, middle + 1, right);
+        return root;
+    }
+
     public TreeNode SortedArrayToBST(int[] nums)
     {
         if (nums.Length == 1)
             return new TreeNode(nums[0]);
-        int midPosition = nums.Length / 2;
-        TreeNode root = new TreeNode(nums[midPosition]);
-        var tmp = root;
-        for (int i = midPosition - 1; i >= 0; --i)
-        {
-            tmp.left = new TreeNode(nums[i]);
-            tmp = tmp.left;
-        }
-        tmp = root;
-        for (int j = midPosition + 1; j < nums.Length; ++j)
-        {
-            tmp.right = new TreeNode(nums[j]);
-            tmp = tmp.right;
-        }
-        return root;
+        return RecursiveBuild(nums, 0, nums.Length - 1);
     }
 }
