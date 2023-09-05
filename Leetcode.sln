@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "112.PathSum", "112.PathSum\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "118.PascalsTriangle", "118.PascalsTriangle\118.PascalsTriangle.csproj", "{1238B864-00CD-441B-9B68-7C7D8D55EBD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "119.PascalsTriangleII", "119.PascalsTriangleII\119.PascalsTriangleII.csproj", "{FDFA075B-E79B-45E5-A3F1-D2A8FFB4DF60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{1238B864-00CD-441B-9B68-7C7D8D55EBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1238B864-00CD-441B-9B68-7C7D8D55EBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1238B864-00CD-441B-9B68-7C7D8D55EBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFA075B-E79B-45E5-A3F1-D2A8FFB4DF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFA075B-E79B-45E5-A3F1-D2A8FFB4DF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFA075B-E79B-45E5-A3F1-D2A8FFB4DF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFA075B-E79B-45E5-A3F1-D2A8FFB4DF60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
