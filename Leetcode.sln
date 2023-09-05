@@ -47,9 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "108.ConvertSortedArrayToBin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "110.BalancedBinaryTree", "110.BalancedBinaryTree\110.BalancedBinaryTree.csproj", "{401048A9-EAFF-4C6F-9C51-296B3BC42013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "111.MinimumDepthOfBinaryTree", "111.MinimumDepthOfBinaryTree\111.MinimumDepthOfBinaryTree.csproj", "{890F14B1-DE87-4194-B6C8-111AF5818E82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "111.MinimumDepthOfBinaryTree", "111.MinimumDepthOfBinaryTree\111.MinimumDepthOfBinaryTree.csproj", "{890F14B1-DE87-4194-B6C8-111AF5818E82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "112.PathSum", "112.PathSum\112.PathSum.csproj", "{7D346A66-C831-4321-9A0D-82D640444780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "112.PathSum", "112.PathSum\112.PathSum.csproj", "{7D346A66-C831-4321-9A0D-82D640444780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "118.PascalsTriangle", "118.PascalsTriangle\118.PascalsTriangle.csproj", "{1238B864-00CD-441B-9B68-7C7D8D55EBD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{7D346A66-C831-4321-9A0D-82D640444780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D346A66-C831-4321-9A0D-82D640444780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D346A66-C831-4321-9A0D-82D640444780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1238B864-00CD-441B-9B68-7C7D8D55EBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1238B864-00CD-441B-9B68-7C7D8D55EBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1238B864-00CD-441B-9B68-7C7D8D55EBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1238B864-00CD-441B-9B68-7C7D8D55EBD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
