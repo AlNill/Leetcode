@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "118.PascalsTriangle", "118.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "119.PascalsTriangleII", "119.PascalsTriangleII\119.PascalsTriangleII.csproj", "{FDFA075B-E79B-45E5-A3F1-D2A8FFB4DF60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "125.ValidPalindrome", "125.ValidPalindrome\125.ValidPalindrome.csproj", "{810FDD13-0D26-4B33-A0B2-07B9D1D1A5E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "125.ValidPalindrome", "125.ValidPalindrome\125.ValidPalindrome.csproj", "{810FDD13-0D26-4B33-A0B2-07B9D1D1A5E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "136.SingleNumber", "136.SingleNumber\136.SingleNumber.csproj", "{56649F22-52FD-432E-820E-1CA2EB28665E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +157,10 @@ Global
 		{810FDD13-0D26-4B33-A0B2-07B9D1D1A5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{810FDD13-0D26-4B33-A0B2-07B9D1D1A5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{810FDD13-0D26-4B33-A0B2-07B9D1D1A5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56649F22-52FD-432E-820E-1CA2EB28665E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56649F22-52FD-432E-820E-1CA2EB28665E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56649F22-52FD-432E-820E-1CA2EB28665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56649F22-52FD-432E-820E-1CA2EB28665E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
