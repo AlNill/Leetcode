@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "136.SingleNumber", "136.Sin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "141.LinkedListCycle", "141.LinkedListCycle\141.LinkedListCycle.csproj", "{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "144.BinaryTreePreorderTraversal", "144.BinaryTreePreorderTraversal\144.BinaryTreePreorderTraversal.csproj", "{B2E8BB2B-EC08-4EEA-9528-2D43BFB20C96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,10 @@ Global
 		{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E8BB2B-EC08-4EEA-9528-2D43BFB20C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E8BB2B-EC08-4EEA-9528-2D43BFB20C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E8BB2B-EC08-4EEA-9528-2D43BFB20C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E8BB2B-EC08-4EEA-9528-2D43BFB20C96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
