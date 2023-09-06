@@ -59,6 +59,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "125.ValidPalindrome", "125.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "136.SingleNumber", "136.SingleNumber\136.SingleNumber.csproj", "{56649F22-52FD-432E-820E-1CA2EB28665E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "141.LinkedListCycle", "141.LinkedListCycle\141.LinkedListCycle.csproj", "{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{56649F22-52FD-432E-820E-1CA2EB28665E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56649F22-52FD-432E-820E-1CA2EB28665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56649F22-52FD-432E-820E-1CA2EB28665E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEBEA13-AC45-4CE7-B919-8977B9A329A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
