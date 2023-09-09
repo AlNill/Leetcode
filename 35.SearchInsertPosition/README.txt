@@ -1,1 +1,0 @@
-﻿As result code beats 90.62% by runtime and 74.30% by memory.
