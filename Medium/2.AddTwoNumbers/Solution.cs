@@ -4,7 +4,7 @@ namespace Medium._2.AddTwoNumbers;
 
 
 /*
- * Beats 85.36% by speed and Beats 98.71% by memory
+ * Beats 85.36% by speed and Beats 98.71% by memory. But needs refactoring!!!
  */
 public class Solution
 {
