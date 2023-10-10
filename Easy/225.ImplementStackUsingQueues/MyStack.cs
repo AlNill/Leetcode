@@ -1,32 +1,23 @@
 ﻿namespace Easy._225.ImplementStackUsingQueues;
 
 /*
- * Beats 75.45% by speed and 84.15% by memory
+ * Beats 87.31% by speed and 52.13% by memory
  */
 public class MyStack
 {
     private Queue<int> _q;
-    private Queue<int> _tmp;
 
     public MyStack()
     {
         _q = new Queue<int>();
-        _tmp = new Queue<int>();
     }
 
     public void Push(int x)
     {
-        int count = _q.Count;
-        for (int i = 0; i < count; ++i)
-        {
-            _tmp.Enqueue(_q.Dequeue());
-        }
-
         _q.Enqueue(x);
-        count = _tmp.Count;
-        for (int i = 0; i < count; ++i)
+        for (int i = 0; i < _q.Count - 1; ++i)
         {
-            _q.Enqueue(_tmp.Dequeue());
+            _q.Enqueue(_q.Dequeue());
         }
     }
 
