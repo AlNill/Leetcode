@@ -6,7 +6,7 @@ namespace Medium._24.SwapNodesInPairs;
 public class Solution
 {
     /*
-     * Beats 6.73% by speed and 39.29% by memory
+     * Beats 45.19% by speed and 96.02% by memory
      */
     public ListNode ShorterSwapPairs(ListNode head)
     {
